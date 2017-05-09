@@ -10,6 +10,6 @@ So for instance run it by typing the following line in the console.
 ```bash
 python train_detector.py detector_test_1  
 ```  
-The network should be getting 95 percent accuracy on an evenly distributed validation set without much problems.  
+The network should be getting 95+ percent accuracy on an evenly distributed validation set without much problems.  
 
 The 21 application should be working once you installed all the needed software. For a detailed explanation to get up and running with it checkout "https://21.co/features/"

@@ -4,7 +4,7 @@ Before the network can be trained, training and testing data has to be aquired w
 ```bash
 python crawl_subr.py sports  
 ```
-The script should create two directories "nsfw" and "normal". Once they contain enough data put them into a different directory called "train" and then repeat the crawling process with different subreddits to gather testing/validation data.  
+The script should create two directories "nsfw" and "normal". Once they contain enough data put them into the directory called "train" and then repeat the crawling process with different subreddits to gather testing/validation data which is then to be put into the "test" directory.  
 The model is then trained by running the "train_detector" script and providing it with a directory name where accuracy on the testing/validation data is logged and a model is saved for each epoch the training is running.  
 So for instance run it by typing the following line in the console.
 ```bash

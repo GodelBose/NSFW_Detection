@@ -46,7 +46,6 @@ def nsfw_detection():
         text = str(request.args.get('url'))
     else:
         text = URL
-    print(text)
     if not os.path.exists(path+'/temp'):
         os.mkdir(path+'/temp')
         os.mkdir(path+'/temp/pic')

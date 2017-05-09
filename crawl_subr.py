@@ -32,7 +32,6 @@ if __name__ == "__main__":
                 try:
                     img = img_client.get_image(img_id)
                 except:
-                    print("not found")
                     continue
                 # get images in m format to make it easier to process for the network
                 response = requests.get(url[:-4]+'m.jpg')
